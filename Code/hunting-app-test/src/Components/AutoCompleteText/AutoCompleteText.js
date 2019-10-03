@@ -5,13 +5,11 @@ export default class AutoCompleteText extends React.Component {
     constructor (props) {
         super (props);
         this.items = [
-            'Hefner',
-            'Texoma',
-            'Tenkiller',
-            'ThunderBird',
-            'Eufaula',
-            'Broke Bow',
-            'Waurika',
+            'Lavon Lake',
+            'Grapevine Lake',
+            'Lewisville Lake',
+            'Bardwell Lake',
+            'Benbrook Lake',
         ];
         this.state = {
             suggestions: [],

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from '../Toolbar/USACE_logo.png';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Toolbar.css';
 
@@ -9,7 +9,8 @@ const toolbar = props => (
             <div>
                 <DrawerToggleButton click={props.drawerClickHandler} />
             </div>
-            <div className="toolbar_logo"><a href="/">THE LOGO</a></div>
+            <div id="test"></div>
+            <div className="toolbar_logo"><a href="/"><img src={logo} alt="Corps of engineers logo"  width="50" height="40" ></img></a></div>
             <div className="spacer" />
             <div className="toolbar_navigation-items">
                 <ul>

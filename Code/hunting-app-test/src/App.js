@@ -35,7 +35,7 @@ class App extends Component {
           <AutoCompleteText />
         </div>
         <main style={{marginTop: '64px'}}>
-          <p>Test words</p>
+          <p></p>
         </main>
       </div>
     );
